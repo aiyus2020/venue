@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/venue/static/css/main.ca896809.css",
+    "main.js": "/venue/static/js/main.f3062405.js",
+    "static/media/slide_one.jpg": "/venue/static/media/slide_one.c0549cdcaaa5a3cfc99a.jpg",
+    "static/media/slide_three.jpg": "/venue/static/media/slide_three.8958803436ecc3409fdb.jpg",
+    "static/media/slide_two.jpg": "/venue/static/media/slide_two.13a6beb965b95b59cf5f.jpg",
+    "index.html": "/venue/index.html",
+    "main.ca896809.css.map": "/venue/static/css/main.ca896809.css.map",
+    "main.f3062405.js.map": "/venue/static/js/main.f3062405.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca896809.css",
+    "static/js/main.f3062405.js"
+  ]
+}
