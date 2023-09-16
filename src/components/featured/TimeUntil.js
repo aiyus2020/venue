@@ -12,9 +12,7 @@ export default class TimeUntil extends Component {
 
   getTimeUntil(deadline) {
     const time = Date.parse(deadline) - Date.parse(new Date());
-    if (time < 0) {
-      alert("date passed");
-    } else {
+    if (time > 0) {
       const seconds = Math.floor((time / 1000) % 60);
       const minutes = Math.floor((time / 1000 / 60) % 60);
       const hours = Math.floor((time / (1000 * 60 * 60)) % 24);
@@ -24,8 +22,8 @@ export default class TimeUntil extends Component {
         days,
         hours,
         minutes,
-        seconds
-      })
+        seconds,
+      });
     }
   }
   componentDidMount() {
